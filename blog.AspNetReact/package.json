@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "name": "asp.net",
+    "private": true,
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.4",
+        "browser-sync": "^2.26.3",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-notifier": "^1.7.0"
+    }
+}
